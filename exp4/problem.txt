@@ -1,0 +1,14 @@
+Round Robin CPU Scheduling
+
+Time Quantum: 3
+
+Process    AT    BT    CT    TAT    WT
+P1         0     10    23    23     13
+P2         1     5     14    13     8
+P3         2     8     22    20     12
+
+Average Waiting Time: 11.00
+Average Turnaround Time: 18.67
+
+| P1 | P2 | P3 | P1 | P2 | P3 | P1 | P3 | P1 |
+0    3    6    9    12   14   17   20   22   23
